@@ -30,5 +30,4 @@ public class RecursiveBinarySearch {
             return search(numbers, tar, left, mid - 1);
         }
     }
-
 }
