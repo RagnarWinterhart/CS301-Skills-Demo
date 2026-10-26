@@ -25,7 +25,7 @@ public class CustomDate {
 
     public int getMonthDays(int month){
         if(month == 2){
-            return isLeapYear(month) ? 29 : 28;
+            return isLeapYear(year) ? 29 : 28;
         } else if ((month + month / 8) % 2 == 0) {
             return 30;
         }else{
@@ -67,7 +67,7 @@ public class CustomDate {
 
         CustomDate first = new CustomDate(10, 17, 2026);
         CustomDate second = new CustomDate(10, 30, 2026);
-        System.out.println(first.getMonthDays(10));
+        System.out.println(first.getMonthDays(2));
         System.out.println(first.daysBetween(second));
         System.out.println(first.getDayOfWeek());
     }
