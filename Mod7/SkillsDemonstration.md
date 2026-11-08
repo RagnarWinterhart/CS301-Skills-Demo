@@ -18,7 +18,7 @@ This problem is in NP because if a solution route is provided we can check that 
 ## 3 Vertex Cover
 The Vertex Cover Problem involves a graph with nodes or vertices and edges, and the problem asks if it is possible to select of subset of vertcies that every edge in the graph is is connected to at least one vertex.
 
-It is in NP because finding the smallest combination of vertices that covers every edge is quite difficult, sinc checking every subset grows exponentially as the size of the graph does. However verifying a solution is straight forward if someone were to claim that a list of vertices solved the problem. 
+It is in NP because finding the smallest combination of vertices that covers every edge is quite difficult, since checking every subset grows exponentially as the size of the graph does. However verifying a solution is straight forward if someone were to claim that a list of vertices solved the problem. 
 
 
 # What is the difference between universality, computability, and intractability, in your own words.
